@@ -26,6 +26,7 @@ export class HeaderComponent implements OnInit {
         case menu.labor.key:
         case menu.area.key:
         case menu.collaboration.key:
+        case menu.renting.key:
         case menu.contact.key:
           this.background = `url(${assetsFeatureURL + menu[this.route].background}`;
           this.title = menu[this.route].title;

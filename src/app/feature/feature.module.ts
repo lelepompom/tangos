@@ -8,6 +8,7 @@ import { TeamComponent } from './team/team.component';
 import { LaborComponent } from './labor/labor.component';
 import { AreaComponent } from './area/area.component';
 import { CollaborationComponent } from './collaboration/collaboration.component';
+import { RentingComponent } from './renting/renting.component';
 import { ContactComponent } from './contact/contact.component';
 import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module';
@@ -15,7 +16,7 @@ import { AppRoutingModule } from '../app-routing.module';
 
 
 @NgModule({
-  declarations: [HomeComponent, TeamComponent, LaborComponent, AreaComponent, CollaborationComponent, ContactComponent],
+  declarations: [HomeComponent, TeamComponent, LaborComponent, AreaComponent, CollaborationComponent, RentingComponent, ContactComponent],
   imports: [
     CommonModule,
     AppRoutingModule,

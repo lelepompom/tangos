@@ -5,6 +5,7 @@ import { TeamComponent } from './feature/team/team.component';
 import { LaborComponent } from './feature/labor/labor.component';
 import { AreaComponent } from './feature/area/area.component';
 import { CollaborationComponent } from './feature/collaboration/collaboration.component';
+import { RentingComponent } from './feature/renting/renting.component';
 import { ContactComponent } from './feature/contact/contact.component';
 import { NotfoundComponent } from './core/templates/notfound/notfound.component';
 import { MaintenanceComponent } from './core/templates/maintenance/maintenance.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'trabajo', component: LaborComponent },
   { path: 'areas', component: AreaComponent },
   { path: 'colaboraciones', component: CollaborationComponent },
+  { path: 'alquiler', component: RentingComponent },
   { path: 'contacto', component: ContactComponent },
   { path: '**', component: NotfoundComponent }
 

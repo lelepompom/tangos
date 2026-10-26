@@ -5,7 +5,26 @@
     <h5 class="schedule">{{ 'contact.consultationSchedule.title' | translate }}</h5>
     <p class="pb-3">{{ 'contact.consultationSchedule.data' | translate }}</p>
     <h6>{{ 'contact.abstract' | translate }}</h6>
-    <ul class="pb-3 custom-list"><li *ngFor="let way of ('contact.ways' | translate)">{{way}}</li></ul>
+    <ul class="pb-3 custom-list">
+        <li>{{ 'contact.options.maria.name' | translate }}</li>
+        <div class="options pb-3">
+            <div class="col-sm-12 mt-2">
+                <a href="{{ 'contact.options.maria.whatsapp' | translate }}" target="_blank" class="inline"><i class="fab fa-whatsapp"></i><span class="pt-2 pl-2"> {{ 'contact.options.maria.ways.0' | translate }}</span></a>
+            </div>
+            <div class="col-sm-12 mt-2">
+                <a href="{{ 'contact.options.maria.email' | translate }}" target="_blank" class="inline"><i class="far fa-envelope"></i><span class="pt-2 pl-2"> {{ 'contact.options.maria.ways.1' | translate }}</span></a>
+            </div>
+        </div>
+        <li>{{ 'contact.options.inmaculada.name' | translate }}</li>
+        <div class="options pb-3">
+            <div class="col-sm-12 mt-2">
+                <a href="{{ 'contact.options.inmaculada.whatsapp' | translate }}" target="_blank" class="inline"><i class="fab fa-whatsapp"></i><span class="pt-2 pl-2"> {{ 'contact.options.inmaculada.ways.0' | translate }}</span></a>
+            </div>
+            <div class="col-sm-12 mt-2">
+                <a href="{{ 'contact.options.inmaculada.email' | translate }}" target="_blank" class="inline"><i class="far fa-envelope"></i><span class="pt-2 pl-2"> {{ 'contact.options.inmaculada.ways.1' | translate }}</span></a>
+            </div>
+        </div>
+    </ul>
     <h5 class="schedule">{{ 'contact.location.title' | translate }}</h5>
     <p class="pb-3">
         {{ 'contact.location.data' | translate }}
