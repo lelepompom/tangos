@@ -34,6 +34,11 @@
             "background": "landscape_room_6.jpg",
             "title": "Contacto"
         },
+        "renting": {
+            "key": "renting",
+            "background": "landscape_room_13.jpg",
+            "title": "Alquiler de despachos"
+        },
         "notFound": {
             "background": "landscape_room_7.jpg",
             "title": "Ops!",
@@ -53,7 +58,7 @@
         "url": "https://espaciopsicologos.com/",
         "abstract": "Centro sanitario autorizado por la consejería de sanidad de la comunidad de Madrid",
         "location": "C/Rafael Calvo 42, Escalera Derecha, 1º Derecha. 28010 Madrid.",
-        "telephone": "Teléfono: 91 319 44 63",
+        "telephone": "Teléfono: 630 42 44 30 / 660 90 92 19",
         "images": [
             "landscape_room_13.jpg",
             "landscape_room_2.jpg",
@@ -196,12 +201,29 @@
         "title": "Contacto",
         "description": "Calle Rafael Calvo 42, Escalera Derecha, 1º Derecha 28010 Madrid.",
         "url": "https://espaciopsicologos.com/contacto",
-        "abstract": "Puede ponerse en contacto con nosotros a través de los siguientes medios:",
-        "ways": [
-            "Por teléfono, llamando al 91 319 44 63",
-            "Inmaculada Villena: 660 90 92 19",
-            "María Castillo: 630 42 44 30"
-        ],
+        "abstract": "Puede ponerse en contacto con nosotros a través de WhatsApp y correo electrónico:",
+        "options": {
+            "maria": {
+                "name": "María Castillo",
+                "ways": [
+                    "WhatsApp: 630 42 44 30",
+                    "Correo electrónico: mcctijada@gmail.com"
+                ],
+                "ctc": "tel:+34-630-42-44-30",
+                "email": "mailto:mcctijada@gmail.com",
+                "whatsapp": "https://wa.me/0034630424430"
+            },
+            "inmaculada": {
+                "name": "Inmaculada Villena",
+                "ways": [
+                    "WhatsApp: 660 90 92 19",
+                    "Correo electrónico: inmaculadavillena@yahoo.es"
+                ],
+                "ctc": "tel:+34-660-90-92-19",
+                "email": "mailto:inmaculadavillena@yahoo.es",
+                "whatsapp": "https://wa.me/0034660909219"
+            }
+        },
         "telephoneHours": {
             "title": "Horario de Atención Telefónica",
             "data": "De 09.00 a 20:00 horas, de lunes a viernes laborables."
@@ -215,10 +237,17 @@
             "data": "Calle Rafael Calvo 42, Escalera Derecha, 1º Derecha 28010 Madrid."
         }
     },
+    "renting": {
+        "title": "Alquiler de despachos",
+        "url": "https://espaciopsicologos.com/alquiler",
+        "description": "Alquiler de despachos / consultas por días completos o semanas completas.",
+        "zone": "Zona Chamberí: Madrid.",
+        "abstract": "Contacta con nosotras para consultar disponibilidad y condiciones:"
+    },
     "footer": {
         "abstract": "Centro sanitario autorizado por la Consejería de Sanidad de la Comunidad de Madrid con número CS11050",
         "description": "Los principios rectores de nuestro trabajo son la rigurosidad, la ética y el respeto al paciente.",
-        "CTC": "tel:+34-91-319-44-63",
+        "CTC": "tel:+34-630-42-44-30",
         "CTM": "https://www.google.com/maps/place/Calle+Rafael+Calvo,+42,+28010+Madrid/@40.433917,-3.690415,15z/data=!4m5!3m4!1s0xd4228ed2bcfdb5d:0x9a206d77549a801d!8m2!3d40.4339173!4d-3.6904147?hl=es"
     }
 }
